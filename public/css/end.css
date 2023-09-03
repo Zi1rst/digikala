@@ -1,0 +1,396 @@
+div.end{
+    width: 100%;
+    background-color: rgba(211, 210, 210, 0.192);
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+/*-------------floor-1-----------------*/
+div.end>div.floor-1{
+
+    width: 95%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.end>div.floor-1>div.right{
+
+    display: flex;    
+    flex-direction:column;
+    justify-content: space-between;
+    width: 38%;
+    line-height: 50px;
+}
+
+div.end>div.floor-1>div.right>div>img{
+    width: 130px;
+}
+
+div.end>div.floor-1>div.right>div{
+    display: flex;
+    justify-content:space-between;
+}
+div.end>div.floor-1>div.right>div>p{
+    
+    font-family: IranYekan;
+    color: gray;
+    font-size: 14px;
+    color: gray;
+}
+
+
+
+div.end>div.floor-1>div.left{
+    
+    display: flex;
+    justify-content: flex-end;
+}
+
+div.end>div.floor-1>div.left>div{
+    width: 180px;
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+    padding: 12px 7px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    vertical-align: middle;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div.end>div.floor-1>div.left>div img{
+    width: 15px;
+    vertical-align: middle;
+}
+div.end>div.floor-1>div.left>div p{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+    color: gray;
+}
+
+
+/*-------------floor-2-----------------*/
+div.end>.floor-2{
+    width: 85%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div.end>div.floor-2>div>a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 120px;
+}
+
+div.end>div.floor-2>div>a>img{
+   width: 55%;
+   margin: 0 auto;
+}
+div.end>div.floor-2>div>a>p{
+    font-family: IranYekan;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+}
+
+/*-------------floor-3-----------------*/
+
+div.end>div.floor-3{
+    width: 100%;
+    height: 300px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px auto;
+    
+}
+div.end>div.floor-3>div.list{
+    width: 20%;
+    
+}
+
+div.end>div.floor-3>div.list>ul{
+    font-family: IranYekan;
+    line-height: 2.5rem;
+    text-align: center;
+    
+}
+div.end>div.floor-3>div.list>ul>a{
+    font-weight: 600;
+    font-size: 17px;
+    color:black;
+}
+div.end>div.floor-3>div.list>ul>li>a{
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(80, 75, 75);
+}
+
+div.end>div.floor-3>div.c4{
+     display: flex;
+     flex-direction: column;
+    width: 32%;
+   
+    font-weight: 600;
+    font-size: 17px;
+    color: black;
+    
+}
+
+div.end>div.floor-3>div.c4>div{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 20px 0;
+    height: 80px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+div.end>div.floor-3>div.c4>div>a{
+   
+    display: flex;
+    justify-content: center;
+    width: 13%;
+    margin: 0 10px;
+}
+
+div.end>div.floor-3>div.c4>form>input{
+    color: brown;
+
+}
+
+div.end>div.floor-3>div.c4>p{
+    color: rgb(106, 73, 100);
+}
+
+
+
+.icons{
+    font-size: 40px;
+
+    color: gray;
+    background-color: white;
+}
+
+
+/*-------------floor-4-----------------*/
+
+div.floor-4{
+    background-color: rgb(60, 75, 109);
+    width: 95%;
+    height: 85px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.floor-4>.right{
+    width: 30%;
+   
+    height: inherit;
+    display: flex;
+    
+    align-items: center;
+
+}
+
+div.floor-4>.right>img{
+    width: 46px;
+    height: 46px;
+    margin: 30px ;
+}
+
+div.floor-4>.right>p{
+    font-family: IranYekan;
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+}
+
+div.floor-4>.left{
+    
+    width: 53%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 25px;
+
+}
+
+div.floor-4>.left>a{
+    height: 100%;
+    background-color:white;
+    display: flex;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    height: 45px;
+}
+
+div.floor-4>.left>a>img{
+    height: 100%;
+    border-radius: 5px;
+    background-color:white;
+}
+div.floor-4>.left>a:last-of-type{
+    width:40px;
+    height: 40px;
+}
+
+/*-------------floor-5-----------------*/
+ div.floor_5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    margin: 30px auto;
+    box-sizing: border-box;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+   padding: 40px 0px;
+    
+ }
+
+ div.floor_5>.right{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width:65%;
+    height:140px;
+ }
+
+ div.floor_5>.right>h2{
+    color:rgb(95, 94, 94);
+ }
+
+ div.floor_5>.right>p{
+    color:gray;
+ }
+ div.floor_5>.right>a{
+    color: rgb(54, 146, 199);
+    font-family: IranYekan;
+    font-size: 16px;
+ }
+
+ div.floor_5>.left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+    justify-content: space-around;
+    
+ }
+
+ div.floor_5>.left>a{
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    box-sizing: border-box;
+    border: 1px lightgray solid;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+ div.floor_5>.left>a>img{
+    padding: 15px ;
+ }
+
+ /*-------------floor-6-----------------*/
+
+ div.floor_6{
+    display: flex;
+    width: 95%;
+    margin: 40px auto;
+    align-items: center;
+    justify-content: center;
+ }
+
+ div.floor_6>p{
+    font-family: IranYekan;
+    font-size: 12px;
+    color: gray;
+ }
+/*-------------floor-7-----------------*/
+div.floor_7{
+    background-color:rgb(241, 242, 244);
+    width: 100%;
+    height: 170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+div.floor_7>div.up{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+    justify-content: space-around;
+}
+
+div.floor_7>div.up>a{
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-right: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+div.floor_7>div.up>a:first-child{
+    border-right:none;
+}
+
+
+div.floor_7>div.down{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+    justify-content: space-around;
+}
+
+div.floor_7>div.down>a{
+    width: 11%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-right: 1px solid lightgrey;
+}
+div.floor_7>div.down>a:first-child{
+    border-right:none;
+}

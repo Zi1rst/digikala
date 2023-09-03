@@ -1,0 +1,59 @@
+div.pishnahad{
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+
+}
+
+div.pishnahad>div.cat-2{
+    margin:  0 auto;
+    display: flex;
+
+}
+div.pishnahad>div.cat-2>p{
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+div.pishnahad>div.top, div.pishnahad>div.bottom{
+    width: 80%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border: 1px solid rgba(211, 211, 211, 0.425);
+   margin-top: -1px;
+
+} 
+
+div.pishnahad>div.top>div, div.pishnahad>div.bottom>div{
+    display: inline-block;
+    width: 14%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    border-left: 1px solid rgba(211, 211, 211, 0.425);
+    
+}
+
+div.pishnahad>div.top>div>div>img,  div.pishnahad>div.bottom>div>div>img{
+    width: 50%;
+    border-radius: 40%;
+    -webkit-border-radius: 40%;
+    -moz-border-radius: 40%;
+    -ms-border-radius: 40%;
+    -o-border-radius: 40%;
+    margin-bottom: 10px;
+    border: 1px outset  rgba(211, 211, 211, 0.425);
+    line-height: 40px;
+    
+}
+
+
+
+div.offer>div.top>div>p,  div.offer>div.bottom>div>p{
+    font-family: IranYekan;
+    font-size: 12px;
+}
+
+div.offer>div.top>div:last-of-type,  div.offer>div.bottom>div:last-of-type{
+    border: unset;
+} 

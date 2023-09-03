@@ -1,0 +1,74 @@
+div.slider{
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+    
+}
+
+
+div.wonderful{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+div.wonderful>div.item{
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    padding: 20px 20px 20px 0;
+    box-sizing: border-box;
+    background-color: rgb(223, 31, 69);
+    border-radius: 20px;
+}
+div.wonderful>div.item  div.imageWow { 
+    text-align: center;
+    margin-bottom: 10px;
+}
+div.wonderful>div.item  div.imageWow>img { 
+    width: 70%;
+    display: inline-block;
+}
+.changeKarim{
+    flex-flow: column wrap;
+}
+div.wonderful>div.item div.price{
+    width: 100%;
+}
+div.wonderful>div.item div.price>div.left , div.wonderful>div.item div.price>div.right{
+    display: inline-block;
+}
+div.wonderful>div.item div.price>div.left{
+    font-size: 14px;
+    font-family: Yekan;
+    text-align: left;
+    font-weight: bold;
+    width: 50%;
+}
+div.wonderful>div.item div.price>div.right{
+    font-size: 15px;
+    font-family: Yekan;
+    text-align: right;
+    font-weight: bold;
+    width: 40%;
+}
+div.wonderful>div.item div.price>div.right>span{
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: crimson;
+    color: whitesmoke;
+    border-radius: 15px;
+}
+div.wonderful>div.item div.deletePan{
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    padding-left: 30px;
+    box-sizing: border-box;
+    font-size: 15px;
+    text-decoration: line-through;
+    color: grey;
+}
+div.swiper-slide:nth-of-type(){
+    border-radius:0 10px 10px 0 ;
+    background-color: transparent;
+}

@@ -1,0 +1,73 @@
+div.study{
+    width: 95%;
+    margin: 30px auto;
+    max-width: 1500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.study>div.cat-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+/*----------cat 1------------*/
+
+
+div.study>.cat-1>h2{
+    font-family: IranYekan;
+    font-size: 17px;
+    color: black;
+}
+
+div.study>.cat-1>a>p{
+    font-family: IranYekan;
+    font-size: 13px;
+    color:rgb(58, 174, 209);
+}
+
+
+
+div.study>.cat-2{
+    width: 100%;
+    display: flex;
+    margin: 25px auto;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+div.study>.cat-2>a{
+    width: 24%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+    
+div.study>.cat-2>a>img{
+    width: 100%;
+    height: 170px;
+    border-radius:10px 10px 0 0 ;
+    -webkit-border-radius:10px 10px 0 0 ;
+    -moz-border-radius:10px 10px 0 0 ;
+    -ms-border-radius:10px 10px 0 0 ;
+    -o-border-radius:10px 10px 0 0 ;
+}
+
+div.study>.cat-2>a>p{
+    font-family: IranYekan;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+}

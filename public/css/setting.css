@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: Yekan;
+    src: url('../fonts/yekan.woff2');
+}
+:root{
+    --width:100%;
+}
+div.wrapper{
+    width: 100%;
+    direction: rtl;
+}
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+

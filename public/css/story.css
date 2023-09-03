@@ -1,0 +1,27 @@
+div.story{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+div.story>div{
+    display: inline-block;
+    height: inherit;
+    margin:  0 10px;
+    padding: 30px;
+}
+div.story>div img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    outline: 3px solid crimson;
+    outline-offset: 5px;
+}
+div.story>div>a{
+    text-decoration: none;
+}
+div.story>div  h4{
+    font-family: Yekan;
+    font-size: 13px;
+    font-weight: bold;
+}

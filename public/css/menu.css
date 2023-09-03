@@ -1,0 +1,200 @@
+
+div.menu{
+    width: 100%;
+    height: 40px;
+    background-color: aliceblue;
+    display: none;
+}
+
+div.menu>nav{
+    width: inherit;
+    height: inherit;
+    background-color: aliceblue;
+    margin: 30px 20px 10px auto;
+    display: none;
+}
+
+div.menu>nav>ul{
+    width: 100%;
+    height: inherit;
+    list-style: none;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+
+div.menu>nav>ul>li{
+    display: inline-block;
+    width: auto;
+    vertical-align: top;
+    height: inherit;
+}
+
+
+div.menu>nav>ul>li>a{
+        font-family: IranYekan;
+        width: inherit;
+        height: inherit;
+        display: block;
+        padding:  0 20px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 40px;
+        color:RGB(90, 92, 122);
+        text-decoration: none;
+        transform: 300ms;
+        -webkit-transform: 300ms;
+        -moz-transform: 300ms;
+        -ms-transform: 300ms;
+        -o-transform: 300ms;
+        text-transform: capitalize;
+        
+}
+
+div.menu>nav>ul>li:first{
+    font-weight: bold;
+    
+}
+
+div.menu>nav>ul>li>div.submenu{
+width: calc(100% - 40px);
+height: 500px;
+background-color: whitesmoke;
+position: absolute;
+box-shadow: 5px 5px 5px black;
+display: none;
+z-index: 2;
+
+
+}
+
+div.menu>nav>ul>li:hover>div.submenu{
+    display: block;
+    
+}
+
+div.menu>nav>ul>li>div.submenu>ul{
+    list-style: none;
+    width: 10%;
+    height: inherit;
+    background-color: whitesmoke;
+}
+   
+
+div.menu>nav>ul>li>div.submenu>ul>li{
+    width: 100%;
+    height: 40px;
+    
+}
+
+div.menu>nav>ul>li>div.submenu>ul>li>a{
+    display: block;
+    width: inherit;
+    height: inherit;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    background-color: whitesmoke;
+    transition:400ms;
+    transition: 200ms;
+    -moz-transition:400ms;
+    -ms-transition:400ms;
+    -o-transition:400ms;
+    -webkit-transition:400ms;
+    color: black;
+    font-size: 16px;
+    text-align: right;
+   
+    
+}
+
+div.menu>nav>ul>li:hover>div.submenu>ul>li>a:hover{
+    background-color: lightgrey;
+    transition: 400ms;
+    -webkit-transition: 400ms;
+    -moz-transition: 400ms;
+    -ms-transition: 400ms;
+    -o-transition: 400ms;
+}
+
+div.menu>nav>ul>li>div.submenu>ul>li>div{
+    width: 90%;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+
+}
+
+div.menu>nav>ul>li>div.submenu>ul>li>div>div{
+    display: inline-block;
+    width: 18%;
+    height: inherit;
+    text-align: center; 
+    vertical-align: top;
+    text-decoration: none;
+    color: black;
+
+}
+
+div.menu>nav>ul>li>div.submenu>ul>li:hover>div{
+    display: block;
+
+}
+
+div.menu>nav>ul>li>div.submenu>ul>li>div>div>a{
+    display: inline-block;
+    height: inherit;
+    text-align: center; 
+    vertical-align: top;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: IranYekan;
+
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div>div>p{
+    display: block;
+
+
+}
+
+div.menu>nav>ul>li>div.submenu>ul>li>div>div>div{
+    display: inline-block;
+    height: inherit;
+    text-align: center; 
+    vertical-align: top;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: IranYekan;
+}
+
+.navi{
+    font-size: 16px;
+    color:gray;
+    background-color: white;
+    padding: 5px;
+}
+
+.bar{
+    font-size: 16px;
+    color:black;
+    background-color: white;
+    padding: 5px;
+}
+
+.imenu{
+    font-size: 16px;
+    color:gray;
+    background-color: white;
+    padding: 5px;
+
+}
+ li.send>span{
+    font-weight: bold;
+    font-size: 14px;
+ }
